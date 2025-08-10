@@ -24,6 +24,8 @@ const next_config = {
   },
   experimental: {
     optimizePackageImports: ["@styled-icons/bootstrap"],
+    appDir: true,
+    typedRoutes: true,
   },
 };
 
