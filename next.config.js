@@ -22,11 +22,7 @@ const next_config = {
       },
     ];
   },
-  experimental: {
-    optimizePackageImports: ["@styled-icons/bootstrap"],
-    appDir: true,
-    typedRoutes: true,
-  },
+experimental: { output: 'serverless' },
 };
 
 module.exports = next_config;
